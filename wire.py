@@ -16,9 +16,9 @@ def get_keywords(soup):
 
 def get_text(soup):
     try:
-        article_body = soup.find("div", {"class": "StandardArticleBody_body"})
-        paragraphs = article_body.find_all("p")
-        paragraph_texts = ''.join([p.get_text() for p in paragraphs])
+        article_body = soup.find_all("p", {"class": "Paragraph-paragraph-2Bgue ArticleBody-para-TD_9x"})
+        # paragraphs = article_body.find_all("p")
+        paragraph_texts = ''.join([p.get_text() for p in article_body])
     except:
         paragraphs = ""
     return paragraph_texts
