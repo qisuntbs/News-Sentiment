@@ -7,3 +7,6 @@ Sentiment model from Shapio, Sudhof, and Wilson (2020)
 Edit the shebang line in wire.py to kick it off.
 
 Note: For the CNN API, use: https://search.api.cnn.io.content?sort=newest&category=business,us,world&size=20&from={}
+
+
+Qi - 2020
